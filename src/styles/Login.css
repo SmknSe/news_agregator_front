@@ -1,0 +1,28 @@
+.login-page-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.img-wrap{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrap img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 750px) {
+    .img-wrap{
+        display: none;
+    }
+
+}

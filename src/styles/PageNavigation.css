@@ -1,0 +1,15 @@
+.page-navigation-wrap{
+    gap: 20px;
+}
+
+.page-navigation-wrap div{
+    font-size: 1.5rem;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.current-page-num{
+    text-decoration: underline;
+}

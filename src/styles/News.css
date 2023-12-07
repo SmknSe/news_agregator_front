@@ -1,0 +1,25 @@
+.post-section-wrap {
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: auto;
+    gap: 50px;
+    padding: 0 10px;
+}
+
+.user-list-follow {
+    width: 50px;
+    height: auto;
+    aspect-ratio: 1;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--main-bg-color);
+}
+
+.user-list-follow:hover{
+    filter: brightness(.9);
+}

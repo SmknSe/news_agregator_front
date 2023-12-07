@@ -1,0 +1,11 @@
+.home-wrap{
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 2rem;
+}
+
+.home-wrap h1{
+    text-align: center;
+}

@@ -1,0 +1,116 @@
+.navbar-wrap{
+    position: fixed;
+    top: 0;
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+    background-color: var(--main-bg-color);
+    z-index: 100;
+    transition: height .5s ease-in-out;
+}
+
+.navbar-img-wrap, .navbar-img-wrap-btn{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    padding: 10px;
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.navbar-img-wrap img,.navbar-img-wrap-btn img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+}
+
+.search-input-wrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-search-input-wrap{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: 20;
+}
+
+.filters-wrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    z-index: 110;
+}
+
+.select-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.filters-heading{
+    align-self: center;
+    justify-self: center;
+}
+
+.select-label{
+    font-size: 1.2rem;
+}
+
+select{
+    background-color: var(--main-bg-color);
+    border-radius: 10px;
+    padding: 0px 10px;
+    padding-right: 0px;
+    padding-bottom: 3px;
+    font-size: 1rem;
+}
+
+option{
+    font-size: 1em;
+    background-color: inherit;
+}
+
+@media (max-width: 600px) {
+
+    .navbar-wrap{
+        padding: 10px 30px;
+        justify-content: flex-start;
+        height: fit-content !important;
+        gap: 20px;
+    }
+
+     .search-input-wrap, .filters-wrap{
+        display: none;
+    }
+
+    .bm-burger-button, .bm-item-list .nav-search-input-wrap,.bm-item-list .filters-wrap{
+        display: flex;
+    }
+
+}
+
+@media (min-width: 600px) {
+    .bm-burger-button{
+        display: none;
+    }
+}

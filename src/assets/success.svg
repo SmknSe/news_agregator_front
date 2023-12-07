@@ -1,0 +1,18 @@
+<svg id="SvgjsSvg1018" width="288" height="288" xmlns="http://www.w3.org/2000/svg" version="1.1"
+    xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.com/svgjs">
+    <defs id="SvgjsDefs1019"></defs>
+    <g id="SvgjsG1020">
+        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 52 52" width="288"
+            height="288">
+            <path
+                d="M26,52A26,26,0,1,1,52,26,26,26,0,0,1,26,52ZM26,4A22,22,0,1,0,48,26,22,22,0,0,0,26,4Z"
+                fill="#309a33" class="color000 svgShape"></path>
+            <path
+                d="M23,37.6A2,2,0,0,1,21.59,37l-9.2-9.19A2,2,0,0,1,15.22,25l9.19,9.19A2,2,0,0,1,23,37.6Z"
+                fill="#309a33" class="color000 svgShape"></path>
+            <path
+                d="M23,37.6a2,2,0,0,1-1.41-3.42L36.78,19a2,2,0,0,1,2.83,2.83L24.41,37A2,2,0,0,1,23,37.6Z"
+                fill="#309a33" class="color000 svgShape"></path>
+        </svg>
+    </g>
+</svg>

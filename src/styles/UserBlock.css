@@ -1,0 +1,23 @@
+.user-block-wrap{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.user-block-image-wrap{
+    width: 50px;
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user-block-username{
+    font-size: 1.5rem;
+}

@@ -1,0 +1,156 @@
+.user-header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.user-header-img-wrap{
+    width: 100%;
+    height: 350px;
+    border-radius: 0 0px 40px 40px;
+    overflow: hidden;
+}
+
+.user-header-img-wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-profile{
+    position: relative;
+    width: fit-content;
+    top: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.user-avatar-name-wrap{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.avatar-wrap{
+    position: relative;
+    width: 120px;
+    min-width: 120px;
+    height: fit-content;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--main-bg-color);
+    border: solid var(--main-bg-color) 5px;
+    overflow: hidden;
+}
+
+.user-header-username{
+    align-self: flex-end;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+    align-self: center;
+}
+
+.add-post-wrap{
+    position: relative;
+    top: -60px;
+    width: 30%;
+    min-width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.user-profile-component{
+    position: relative;
+    padding: 10px;
+    top: 70px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.user-profile-component div{
+    font-size: 1.5rem;
+}
+
+.follow-btn{
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    outline: solid var(--main-bg-color) 5px;
+    padding: 10px;
+    width: 100px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 650px){
+    .user-header-username{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 550px){
+    .user-profile-component div{
+        font-size: 1.2rem;
+    }
+
+    .user-header-username{
+        font-size: 1.2rem;
+    }
+
+    .add-post-wrap{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 450px){
+    .user-profile-component{
+        top: 50px;
+        padding: 10px 5px;
+    }
+    .user-profile-component div{
+        font-size: 1rem;
+    }
+
+    .user-header-username{
+        font-size: 1rem;
+    }
+
+    .follow-btn{
+        font-size: 1rem;
+        width: fit-content;
+    }
+
+    .avatar-wrap{
+        width: 80px;
+        min-width: 80px;
+    }
+
+    .user-profile{
+        top: -40px;
+    }
+
+    .add-post-wrap{
+        top: -40px;
+        height: 30px;
+        font-size: 1.2rem;
+    }
+}
+

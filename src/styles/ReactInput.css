@@ -1,0 +1,31 @@
+.input-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    min-width: 150px;
+    height: auto;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+.input-wrap input{
+    font-size: 1.5rem;
+    width: 85%;
+    outline: none;
+    border: none;
+    background-color: inherit;
+}
+
+.input-logo{
+    width: 40px;
+    height: auto;
+    aspect-ratio: 1;
+}
+
+.input-logo img{
+    width: 40px;
+    height: auto;
+    aspect-ratio: 1;
+}
